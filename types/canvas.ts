@@ -4,7 +4,7 @@ export type Color = {
   b: number;
 };
 
-export type Camers = {
+export type Camera = {
   x: number;
   y: number;
 };
