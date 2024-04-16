@@ -14,12 +14,12 @@ interface LayerPreviewProps {
 export const LayerPreview = memo(
   ({ id, onLayerPointerDown, selectionColor }: LayerPreviewProps) => {
     const layer = useStorage((root) => root.layers.get(id));
-    console.log(
-      {
-        layer,
-      },
-      "LAYER_PREVIEW"
-    );
+    // console.log(
+    //   {
+    //     layer,
+    //   },
+    //   "LAYER_PREVIEW"
+    // );
 
     if (!layer) {
       return null;
