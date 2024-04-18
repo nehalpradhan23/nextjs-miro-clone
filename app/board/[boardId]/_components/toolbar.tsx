@@ -86,6 +86,7 @@ export const Toolbar = ({
           }
         />
         <ToolButton
+          isDisabled
           label="Ellipse"
           icon={Circle}
           onClick={() =>
